@@ -15,6 +15,7 @@ function App() {
   const totalItems=cart.reduce((sum,item)=>sum+item.quantity,0);
   return (
     <>
+    <h1>this is main page</h1>
     <BrowserRouter>
    <Link to='/home'>Home</Link>
    <Link to='/veg'>Veg</Link>
