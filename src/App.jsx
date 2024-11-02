@@ -16,6 +16,7 @@ function App() {
   return (
     <>
     <h1>this is main page</h1>
+      <h1>this is the edited part</h1>
     <BrowserRouter>
    <Link to='/home'>Home</Link>
    <Link to='/veg'>Veg</Link>
